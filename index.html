@@ -8,7 +8,7 @@
     <title>IPEAR</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos1.css">
 
     <meta name="theme-color" content="#2091F9">
 
@@ -34,7 +34,7 @@
 
 <body>
 
-    <header class="hero">
+    <header class="hero" id="inicio">
         <nav class="nav container">
             <div class="nav__logo">
                 <h2 class="nav__title">IPEAR</h2>
@@ -42,16 +42,16 @@
 
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="#inicio" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="#acercade" class="nav__links">Acerca de</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
+                    <a href="#contacto" class="nav__links">Contacto</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Blog</a>
+                    <a href="#blog" class="nav__links">Blog</a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -66,12 +66,12 @@
             <h1 class="hero__title">COMPONENTES PARA CPU</h1>
             <p class="hero__paragraph">Elige tus componentes con los mejores precios del mercado, arma 
                 tu CPU desde cero con nuestros equipos.</p>
-            <a href="#" class="cta">Comprar ahora</a>
+            <a href="formulario.html" class="cta">Comprar ahora</a>
         </section>
     </header>
 
     <main>
-        <section class="container about">
+        <section class="container about" id="acercade">
             <h2 class="subtitle">¿Qué puedes encontrar aquí?</h2>
             <p class="about__paragraph">Todo lo necesario y obligatorio para tu ordenador ( Tarjetas Gráficas
                 , Mainboard, Memorias RAM, Discos Duros, Fuente de poder, etc...)
@@ -107,7 +107,7 @@
                         Tarjeta de Video: RTX 3080 Vision G Gigabyte.
                         Cooler: Hydro Series™ H100i RGB PLATINUM SE 240mm Liquid CPU Cooler.
                         Almacenamiento: Gigabyte NVMe Gen4 SSD 1TB.</p>
-                    <a href="#" class="cta">COMPRAR AHORA</a>
+                    <a href="formulario.html" class="cta">COMPRAR AHORA</a>
                 </div>
 
                 <figure class="knowledge__picture">
@@ -129,7 +129,7 @@
                         <p class="price__features">Garantia</p>
                     </div>
 
-                    <a href="#" class="price__cta">Adquirir ahora</a>
+                    <a href="formulario.html" class="price__cta">Adquirir ahora</a>
                 </div>
 
 
@@ -143,7 +143,7 @@
                         <p class="price__features">Garantia</p>
                     </div>
 
-                    <a href="#" class="price__cta">Adquirir ahora</a>
+                    <a href="formulario.html" class="price__cta">Adquirir ahora</a>
                 </div>
 
 
@@ -160,14 +160,14 @@
                         </p>
                     </div>
 
-                    <a href="#" class="price__cta">Adquirir ahora</a>
+                    <a href="formulario.html" class="price__cta">Adquirir ahora</a>
                 </div>
 
 
             </div>
         </section>
 
-        <section class="testimony">
+        <section class="testimony" id="blog">
             <div class="testimony__container container">
                 <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
 
@@ -256,7 +256,7 @@
                         </h3>
 
                         <p class="questions__show">Los metodos de pago que se brindan en nuestra pagina son
-                            de Tarjetas de credito y debito e implementamos un nuevo metodo de pago que es el de Paypal.</p>
+                            de Tarjetas de credito y debito.</p>
                     </div>
                 </article>
             </section>
@@ -265,46 +265,46 @@
                 <h2 class="subtitle">¿Estas listo para comprar en IPEAR?</h2>
                 <p class="questions__copy">¡Si te ha gustado todo aquello que ofrecemos en nuestra página, animate y compra
                     en IPEAR, no te pierdas de nuestras ofertas, ni de nuestros productos!</p>
-                <a href="#" class="cta">Comprar ahora</a>
+                <a href="formulario.html" class="cta">Comprar ahora</a>
             </section>
         </section>
     </main>
 
     <footer class="footer">
-        <section class="footer__container container">
+        <section class="footer__container container" id="contacto">
             <nav class="nav nav--footer">
                 <h2 class="footer__title">IPEAR.</h2>
 
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#inicio" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
+                        <a href="#acercade" class="nav__links">Acerca de</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
+                        <a href="#contacto" class="nav__links">Contacto</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Blog</a>
+                        <a href="#blog" class="nav__links">Blog</a>
                     </li>
                 </ul>
             </nav>
 
             <form class="footer__form" action="https://formspree.io/f/xlekjpjb"method="POST">
-                <h2 class="footer__newsletter">NOVEDADES DE IPEAR</h2>
+                <h2 class="footer__newsletter">CONTACTO IPEAR</h2>
                 <div class="footer__inputs">
                     <input type="email" placeholder="Email:" class="footer__input" name="email">
-                    <input type="submit" value="Registrate" class="footer__submit">
+                    <input type="submit" value="Contáctanos" class="footer__submit">
                 </div>
             </form>
         </section>
 
         <section class="footer__copy container">
             <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+                <a href="https://www.facebook.com/saul.aguilera.739" target="_blank" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="https://instagram.com/5teenn_?igshid=YmMyMTA2M2Y=" target="_blank" class="footer__icons"><img src="./images/instagram.svg" class="footer__img"></a>
+                <a href="https://www.tiktok.com/es/" target="_blank" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
             </div>
 
             <h3 class="footer__copyright">Derechos reservados &copy; Saúl Aguilera</h3>

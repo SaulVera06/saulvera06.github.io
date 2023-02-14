@@ -5,6 +5,10 @@
     --color-title: #0e7ca8;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -62,6 +66,7 @@ body {
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
+    transition: background-color .3s ease-in-out;
 }
 
 .nav__items {
@@ -673,5 +678,12 @@ body {
         margin:0;
         width: 100%;
         */
+    }
+
+    .texto-encabezado h1{
+        font-size: 3rem;
+        text-align: center;
+        color:#fff;
+        padding-top: 8rem;
     }
 }
