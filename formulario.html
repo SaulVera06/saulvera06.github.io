@@ -33,7 +33,7 @@
     </div>
   </header>
       <div class="container">
-        <form id="survey-form" method="GET">
+        <form action="https://formsubmit.co/saulbussines70@gmail.com" method="POST" id="survey-form" method="GET">
   
            <div class="labels">
             <label id="name-label" for="name">* Nombre y Apellidos</label></div>
@@ -41,9 +41,9 @@
             <input class="input-field" type="text" id="name" name="name" placeholder="Nombre y Apellidos" required autofocus></div>
   
            <div class="labels">
-            <label id="email-label" for="email">* Teléfono para confirmar compra</label></div>
+            <label id="telefono-label" for="telefono">* Teléfono para confirmar compra</label></div>
           <div class="input-tab">
-            <input class="input-field" type="number" id="number" name="email"  placeholder="0980674013" required></div>
+            <input class="input-field" type="number" id="telefono" name="telefono" placeholder="0980674013" required></div>
           
            <div class="labels">
             <label id="number-label" for="number">* Edad</label></div>
@@ -92,13 +92,9 @@
             <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Tu comentario..."></textarea></div>
             
             
-            <form class="btn" action="https://formspree.io/f/xlekjpjb"method="POST">
-              <div href="#incio" class="btn">
-                  <input type="email" placeholder="Email:" class="btn_ese" name="email">
-                  <input type="submit" value="Enviar" class="btn_eso">
-              </div>
-          </form>
-          <a href="index.html">Volver</a>
+            <div class="btn">
+              <button id="submit" type="submit">Enviar</button>
+            </div>
 
 
         </form>
